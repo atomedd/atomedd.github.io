@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0D0D0D;
+  color: #fafafa;
+}
+
+header {
+  background-color: #0D0D0D;;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700 ;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+nav :hover{
+  color: #D94D1A;
+}
+
+.hero {
+  text-align: left;
+  padding: 6rem 4rem;
+}
+
+.hero-content {
+  display: flex;
+  gap: 2rem; 
+  align-items: center; 
+  width: 80%; 
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+.contact-button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.contact-button :hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.projects-button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.projects {
+  text-align: left;
+  padding: 6rem 4rem;
+}
+
+.experience {
+  text-align: left;
+  padding: 6rem 4rem;
+}
+
+.skills {
+  text-align: left;
+  padding: 6rem 4rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #222;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+}
