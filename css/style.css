@@ -4,12 +4,12 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: #0D0D0D;
-  color: #fafafa;
+  background-color: #FCFCFC;
+  color: #4E525A;
 }
 
 header {
-  background-color: #0D0D0D;;
+  background-color: #FCFCFC;;
   padding: 1rem;
 }
 
@@ -25,12 +25,12 @@ nav ul {
 }
 
 nav a {
-  color: #fafafa;
+  color: #4E525A;
   text-decoration: none;
 }
 
 nav :hover{
-  color: #D94D1A;
+  color: #6E06F2;
 }
 
 .hero {
@@ -40,9 +40,47 @@ nav :hover{
 
 .hero-content {
   display: flex;
-  gap: 2rem; 
-  align-items: center; 
-  width: 80%; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-intro h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #4E525A;
+  margin: 0.2rem 0;
+}
+
+.hero-title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-title h2 {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #24262F;
+  margin: 0.2rem 0  ;
+}
+
+.hero-discription{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-discription p{
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #4E525A;
+  margin: 0.2rem 0;
+}
+
+.hero-span {
+  color: #6E06F2;
 }
 
 .hero-text {
@@ -53,9 +91,18 @@ nav :hover{
   flex: 1;
 }
 
+.hero-pic img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+
 .contact-button {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #6E06F2;
+  color: #FCFCFC;
+  border-radius: 5px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -63,16 +110,16 @@ nav :hover{
   margin: 4px 2px;
 }
 
-.contact-button :hover {
-  background-color: #04AA6D;
-  color: white;
+.contact-button:hover {
+  background-color: #47059C;
 }
 
 
 .projects-button {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
+  background-color: none;
+  border: 1px solid #24262F;
+  border-radius: 5px;
+  color: #24262F;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -80,6 +127,11 @@ nav :hover{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.projects-button:hover {
+  background-color: #24262F;
+  color: #FCFCFC;
 }
 
 .projects {
@@ -97,6 +149,63 @@ nav :hover{
   padding: 6rem 4rem;
 }
 
+.skills-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.list-title{
+  font-size: 2.0rem;
+  font-weight: 700;
+  color: #24262F;
+  margin: 1.0rem 0;
+}
+
+.skill-category {
+  flex: 1;
+  min-width: 200px;
+}
+
+.skill-category ul {
+  list-style: none;
+  font-weight: 300;
+  padding: 0;
+  
+}
+
+.skill-category ul li {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem; 
+}
+
+
+
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #24262F;
+  margin: 0.2rem 0;
+  
+}
+
+
+
+.mystory {
+  text-align: left;
+  padding: 6rem 4rem;
+}
+
+.story-text{
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #4E525A;
+  margin: 0.2rem 5;
+}
+
+
 footer {
   text-align: center;
   padding: 2rem;
@@ -104,6 +213,34 @@ footer {
   color: white;
 }
 
-img {
-  border-radius: 50%;
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 2rem;
+  }
+
+  .hero-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .contact-button,
+  .projects-button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+  }
+
+    .skills-lists {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }

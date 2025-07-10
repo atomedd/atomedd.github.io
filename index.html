@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <nav>
+    <nav aria-label="Main Navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
@@ -21,100 +21,103 @@
     </nav>
   </header>
 
-  <section class="hero">
+  <main>
+    <section class="hero">
 
-    <div class="hero-content">
-        <div class="hero-text">
+        <div class="hero-content">
+            <div class="hero-text">
 
-            <div class="hero-intro">
-                <h1>Hi, I'm Edd </h1>
+                <div class="hero-intro">
+                    <h1>Hi, I'm Edd </h1>
+                </div>
+
+                <div class="hero-title"> 
+                    <h2>Web<br><span class="hero-span">Developer</span></h2>
+                </div>
+
+                <div class="hero-discription">
+                    <p>I'm a fullstack Web developer from Brazil based in Vancouver!</p>
+                </div>
+
+                <div>
+                    <a class="contact-button" href="contact.html">Hit me up!</a>
+                    <a class="projects-button" href="projects.html">Check out my Projects</a>
+                </div>
+
             </div>
 
-            <div class="hero-title"> 
-                <h1>Fullstack Developer </h1>
+            <div class="hero-pic">
+                <img src="assets/img/heroprofpic.jpeg" alt="Hero Profile Pic" width="350" height="350">
             </div>
+        </div>    
+    </section>
 
-            <div>
-                <p>I'm a fullstack developer from Brazil based in Vancouver!</p>
-            </div>
-
-            <div>
-                <a class="contact-button" href="contact.html">Hit me up!</a>
-                <a class="projects-button" href="projects.html">Check out my Projects</a>
-            </div>
-
-        </div>
-
-        <div class="hero-pic">
-            <img src="assets/img/heroprofpic.jpeg" alt="Hero Profile Pic" width="350" height="350">
-        </div>
-    </div>    
-  </section>
-  
-
-   <section class="projects">
-        <div>
+    <section class="projects">
+        <div class="section-title">
             <h1>Projects</h1>
         </div>
     </section>
 
     <section class="experience">
-        <div>
+        <di class="section-title">
             <h1>Experience</h1>
         </div>
     </section>
 
-
-    <section class="skills">
-        <div>
-
-            <div>
-                <h1>Skills</h1>
-            </div>
-            
-            <div class="Frontend">
-                <ul>
-                    <li class="list-title">
-                        Frontend
-                    </li>
-                    <li>Javascript</li>
-                    <li>ReactJS</li>
-                    <li>CCS3</li>
-                    <li>Tailwind</li>
-
-                </ul>
-            </div>
-
-            <div class="Backend">
-                <ul>
-                    <li class="list-title">
-                        Backend
-                    </li>
-                    <li>NodeJs</li>
-                    <li>MongoDB</li>
-                    <li>ExpressJS</li>
-
-                </ul>
-            </div>
-
-            <div class="WebDesign">
-                <ul>
-                    <li class="list-title">
-                        WebDesign
-                    </li>
-                    <li>UI/UX Design</li>
-                    <li>Responsive Design</li>
-                    <li>Wireframing</li>
-
-                </ul>
-            </div>
-
-
+   <section class="skills">
+        <div class="section-title">
+            <h2>Skills</h2>
         </div>
-   </section>
+
+    <div class="skills-lists">
+      <div class="skill-category">
+        <ul>
+          <li class="list-title">Frontend</li>
+          <li>JavaScript</li>
+          <li>ReactJS</li>
+          <li>CSS3</li>
+          <li>Tailwind</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <ul>
+          <li class="list-title">Backend</li>
+          <li>Node.js</li>
+          <li>MongoDB</li>
+          <li>ExpressJS</li>
+        </ul>
+      </div>
+    
+      <div class="skill-category">
+        <ul>
+          <li class="list-title">Web Design</li>
+          <li>UI/UX Design</li>
+          <li>Responsive Design</li>
+          <li>Wireframing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="mystory">
+        <div class="section-title">
+            <h1>My Story</h1>
+            <p class="story-text">
+                My journey as a front-end developer started back in 2010, working as a freelancer for clients all over the world for several years.
+                After being on my own for a while, I decided to enter the corporate world, and I started working as a software developer at Webflow, the same platform I was using with my freelance clients.
+                After some exciting months of work at Webflow, I decided to transition to Stripe, where I returned what I love: front-end development. 
+                My success quickly compounded I started receiving job offers from the biggest names in the industry.
+                All these opportunities led me to travel the world. Eventually, however, I decided to settle down for a more calm and simple routine, and I'm now working at Apple. And you know what? I love what I do! 💜
+            </p>
+        </div>
+    </section>
+
+  </main>
 
   <footer>
-    <p>&copy; 2025 Edd Santos</p>
+    <p>&copy; 2025 All Rights Reserved. Made by Edmar Vianna dos Santos</p>
   </footer>
 </body>
 </html>
