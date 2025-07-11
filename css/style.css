@@ -231,6 +231,7 @@ nav a:hover{
 .experience-btn:hover,
 .experience-btn.active {
   color: #6E06F2;
+  font-size: 2rem;
 }
 
 .experience-details {
