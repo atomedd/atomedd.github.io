@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Edd Santos | Web Developer</title>
+  <title>Edmar Vianna | Web Developer</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,23 +12,44 @@
 
 <body>
   <header>
-    <nav>
+    <nav aria-label="Main Navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <h1>Hi, I'm Edd 👋</h1>
-    <p>I'm a web developer building cool stuff with JavaScript.</p>
-    <a href="projects.html">Check My Work</a>
-  </section>
+  <main>
+
+    <section class="projects">
+      <div class="section-title">
+       <h1><span class="hero-span">/</span>Projects</h1>
+    </div>
+
+    <div class="project-grid">
+  <div class="project-card">
+    <img src="assets/img/gamehub-thumb.png" alt="GameHUB Screenshot">
+    <div class="project-info">
+      <h2>GameHUB</h2>
+      <p>Cross-platform gaming dashboard built with the MERN stack.</p>
+      <a href="https://github.com/yourusername/gamehub" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+
+  <!-- Add more .project-card blocks here -->
+</div>
+    </div>
+    </section>
+
+  </main>
 
   <footer>
-    <p>&copy; 2025 Edd Santos</p>
+    <p>&copy; 2025 All Rights Reserved. Edmar Vianna</p>
   </footer>
+  
+  <script src="js/main.js"></script>
+
 </body>
 </html>

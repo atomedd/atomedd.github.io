@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Edd Santos | Web Developer</title>
+  <title>Edmar Vianna | Web Developer</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,24 +12,100 @@
 
 <body>
   <header>
-    <nav>
+    <nav aria-label="Main Navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Hi, I'm Edd </h2>
-    <h1>Fullstack Developer </h1>
-    <p>I'm a fullstack developer from Brazil based in Vancouver!</p>
-    <a href="projects.html">Check My Work</a>
-  </section>
+  <main>
+
+    <section class="experience">
+      <div class="section-title">
+        <h1><span class="hero-span">/</span>Experience</h1>
+      </div>
+
+      <div class="experience-container">
+        <div class="experience-list">
+          <a class="experience-btn active" data-id="webedia">Webedia Group</a>
+          <a class="experience-btn" data-id="agency">NR-7 Comunicação</a>
+          <a class="experience-btn" data-id="cnn">CNN Brasil</a>
+          <a class="experience-btn" data-id="healthcare">Osang Healthcare</a>
+        </div>
+
+      <div class="experience-details">
+        <div class="experience-content" id="webedia">
+          <h2><span class="hero-span">Junior Web Designer @</span> Webedia Group</h2>
+          <p>Updated and maintained high-traffic content websites (e.g., IGN, AdoroCinema,
+            TudoGostoso) with custom marketing integrations for major clients
+            such as EA, Ubisoft, and top movie publishers.</p>
+             
+            <p>Developed interactive landing pages, animations, and branded experiences to
+              support game launches, movie releases, and promotional campaigns.</p>
+             
+             <p>Collaborated with marketing, design, and ad tech teams to deliver visually 
+              engaging and high-performing content across desktop and mobile.</p>
+             
+             <p>Ensured brand consistency and smooth animation using tools like Google Web Designer,
+              JavaScript, and CSS3.</p>
+             
+             <p>Worked under tight deadlines to launch time-sensitive campaigns seen by millions of users.</p>
+        </div>
+
+      <div class="experience-content hidden" id="agency">
+        <h2><span class="hero-span">Graphic Designer @</span> NR-7 Comunicação</h2>
+        <p>Worked as a visual designer on various branding and web projects, collaborating closely with marketing teams and developers.</p>
+      </div>
+
+      <div class="experience-content hidden" id="cnn">
+        <h2><span class="hero-span">Visual Designer @</span> CNN Brasil</h2>
+        <p>Helped develop creative digital campaigns and maintained content for the elections hotsite and news pages.</p>
+      </div>
+
+      <div class="experience-content hidden" id="healthcare">
+        <h2><span class="hero-span">Frontend Developer @</span> Osang Healthcare</h2>
+        <p>Designed and developed the company’s main website, focusing on clean UI and responsive user experience.</p>
+               
+        <p>Maintained and updated site content, including adding new products and ensuring accurate product listings.</p>
+               
+        <p>Managed and published blog content regularly to support SEO and marketing efforts.</p>
+               
+        <p>Collaborated with internal teams to ensure product information and visuals met branding standards.
+        Implemented updates to improve site performance and accessibility.</p>
+      </div>
+    </div>
+  </div>
+    </section>
+
+
+    <section class="mystory">
+        <div class="section-title">
+            <h1><span class="hero-span">/</span>My Story</h1>
+            <p class="story-text">
+                I got my start at Webedia Group, creating animated ads for sites like IGN,
+                AdoroCinema, and TudoGostoso. Back then it was all Flash—but I helped lead
+                the shift to CSS and jQuery animations to make things faster and more
+                SEO-friendly. Working with big names like EA, Ubisoft, and movie studios
+                gave me a front-row seat to high-impact digital campaigns. After that, I spent
+                time as a visual designer at an ad agency and then at CNN, where I worked on
+                creative projects and helped keep the site fresh with content, especially during
+                elections. Most recently, I’ve been a web developer for a Korean healthcare 
+                company, building their Brazilian site, launching new products, and keeping their
+                blog up to date.
+            </p>
+        </div>
+    </section>
+
+  </main>
 
   <footer>
-    <p>&copy; 2025 Edd Santos</p>
+    <p>&copy; 2025 All Rights Reserved. Edmar Vianna</p>
   </footer>
+  
+  <script src="js/main.js"></script>
+
 </body>
 </html>
