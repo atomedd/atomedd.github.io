@@ -219,21 +219,18 @@ nav a:hover{
 }
 
 .experience-btn {
-  background-color: #f0f0f0;
+  background-color: transparent;
   color: #24262F;
-  border: 2px solid transparent;
   padding: 1rem;
-  border-radius: 8px;
   text-align: left;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: all 0.2s ease-in-out;
 }
 
 .experience-btn:hover,
 .experience-btn.active {
-  border-color: #6E06F2;
-  background-color: #eae2ff;
+  color: #6E06F2;
 }
 
 .experience-details {
@@ -244,6 +241,15 @@ nav a:hover{
 .experience-content {
   display: block;
   width: 80%;
+}
+
+.experience-content h2 {
+  font-weight: 400;
+  color: #24262F;
+}
+
+.experience-content p {
+  line-height: 1.6;
 }
 
 .experience-content.hidden {
