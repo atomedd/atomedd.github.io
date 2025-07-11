@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Edd Santos | Web Developer</title>
+  <title>Edmar Vianna | Web Developer</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
             <div class="hero-text">
 
                 <div class="hero-intro">
-                    <h1>Hi, I'm Edd </h1>
+                    <h1>Hi, I'm Edmar </h1>
                 </div>
 
                 <div class="hero-title"> 
@@ -36,33 +36,116 @@
                 </div>
 
                 <div class="hero-discription">
-                    <p>I'm a fullstack Web developer from Brazil based in Vancouver!</p>
+                    <p>I'm a full-stack web developer based in Vancouver!</p>
                 </div>
 
                 <div>
-                    <a class="contact-button" href="contact.html">Hit me up!</a>
-                    <a class="projects-button" href="projects.html">Check out my Projects</a>
+                    <a class="contact-a" href="contact.html">Hit me up!</a>
+                    <a class="projects-a" href="projects.html">Check out my Projects</a>
                 </div>
 
             </div>
 
-            <div class="hero-pic">
+            <div class="hero-img">
                 <img src="assets/img/heroprofpic.jpeg" alt="Hero Profile Pic" width="350" height="350">
             </div>
         </div>    
     </section>
 
     <section class="projects">
-        <div class="section-title">
-            <h1>Projects</h1>
-        </div>
-    </section>
+      <div class="section-title">
+       <h1>Projects</h1>
+    </div>
 
-    <section class="experience">
-        <di class="section-title">
-            <h1>Experience</h1>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/img/gamehub-thumb.png" alt="GameHUB Screenshot">
+        <div class="project-info">
+          <h2>GameHUB</h2>
+          <p>Cross-platform gaming dashboard built with the MERN stack.</p>
+          <a href="https://github.com/yourusername/gamehub" target="_blank">View on GitHub</a>
         </div>
-    </section>
+      </div>
+
+      <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/img/gamehub-thumb.png" alt="GameHUB Screenshot">
+        <div class="project-info">
+          <h2>GameHUB</h2>
+          <p>Cross-platform gaming dashboard built with the MERN stack.</p>
+          <a href="https://github.com/yourusername/gamehub" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+
+
+      <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/img/gamehub-thumb.png" alt="GameHUB Screenshot">
+        <div class="project-info">
+          <h2>GameHUB</h2>
+          <p>Cross-platform gaming dashboard built with the MERN stack.</p>
+          <a href="https://github.com/yourusername/gamehub" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/img/gamehub-thumb.png" alt="GameHUB Screenshot">
+        <div class="project-info">
+          <h2>GameHUB</h2>
+          <p>Cross-platform gaming dashboard built with the MERN stack.</p>
+          <a href="https://github.com/yourusername/gamehub" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    
+      
+    </div>
+  </section>
+
+   <section class="experience">
+      <div class="section-title">
+        <h1>Experience</h1>
+      </div>
+
+      <div class="experience-container">
+        <div class="experience-list">
+          <a class="experience-btn active" data-id="webedia">Webedia Group</a>
+          <a class="experience-btn" data-id="agency">Ad Agency</a>
+          <a class="experience-btn" data-id="cnn">CNN</a>
+          <a class="experience-btn" data-id="healthcare">Korean Healthcare Co</a>
+        </div>
+
+      <div class="experience-details">
+        <div class="experience-content" id="webedia">
+          <h2>Webedia Group</h2>
+          <p>Designed and developed the company’s main website, focusing on clean UI and responsive user experience.
+              <br></br>
+              Maintained and updated site content, including adding new products and ensuring accurate product listings.
+              <br></br>
+              Managed and published blog content regularly to support SEO and marketing efforts.
+              <br></br>
+              Collaborated with internal teams to ensure product information and visuals met branding standards.
+              Implemented updates to improve site performance and accessibility.</p>
+        </div>
+
+      <div class="experience-content hidden" id="agency">
+        <h2>Ad Agency</h2>
+        <p>Worked as a visual designer on various branding and web projects, collaborating closely with marketing teams and developers.</p>
+      </div>
+
+      <div class="experience-content hidden" id="cnn">
+        <h2>CNN</h2>
+        <p>Helped develop creative digital campaigns and maintained content for the elections hotsite and news pages.</p>
+      </div>
+
+      <div class="experience-content hidden" id="healthcare">
+        <h2>Korean Healthcare Company</h2>
+        <p>Developed and maintained the Brazilian site, launched new product pages, and kept the blog up to date.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
    <section class="skills">
         <div class="section-title">
@@ -105,11 +188,16 @@
         <div class="section-title">
             <h1>My Story</h1>
             <p class="story-text">
-                My journey as a front-end developer started back in 2010, working as a freelancer for clients all over the world for several years.
-                After being on my own for a while, I decided to enter the corporate world, and I started working as a software developer at Webflow, the same platform I was using with my freelance clients.
-                After some exciting months of work at Webflow, I decided to transition to Stripe, where I returned what I love: front-end development. 
-                My success quickly compounded I started receiving job offers from the biggest names in the industry.
-                All these opportunities led me to travel the world. Eventually, however, I decided to settle down for a more calm and simple routine, and I'm now working at Apple. And you know what? I love what I do! 💜
+                I got my start at Webedia Group, creating animated ads for sites like IGN,
+                AdoroCinema, and TudoGostoso. Back then it was all Flash—but I helped lead
+                the shift to CSS and jQuery animations to make things faster and more
+                SEO-friendly. Working with big names like EA, Ubisoft, and movie studios
+                gave me a front-row seat to high-impact digital campaigns. After that, I spent
+                time as a visual designer at an ad agency and then at CNN, where I worked on
+                creative projects and helped keep the site fresh with content, especially during
+                elections. Most recently, I’ve been a web developer for a Korean healthcare 
+                company, building their Brazilian site, launching new products, and keeping their
+                blog up to date.
             </p>
         </div>
     </section>
@@ -117,7 +205,10 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 All Rights Reserved. Made by Edmar Vianna dos Santos</p>
+    <p>&copy; 2025 All Rights Reserved. Edmar Vianna</p>
   </footer>
+  
+  <script src="js/main.js"></script>
+
 </body>
 </html>
