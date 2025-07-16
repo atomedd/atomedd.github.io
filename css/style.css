@@ -64,7 +64,9 @@ nav a:hover{
   font-size: 6rem;
   font-weight: 800;
   color: #24262F;
-  margin: 0.2rem 0  ;
+  margin: 0rem;
+  display: inline;
+
 }
 
 .hero-discription{
@@ -290,6 +292,58 @@ nav a:hover{
   margin-bottom: 0.5rem; 
 }
 
+.techstack {
+  text-align: left;
+  padding: 6rem 4rem;
+}
+
+.terminal-box {
+  max-width: 100%;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-header {
+  background-color: #2d2d2d;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.terminal-title {
+  margin-left: auto;
+  color: #cccccc;
+  font-size: 0.875rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background-color: #ff5f56;
+}
+.yellow {
+  background-color: #ffbd2e;
+}
+.green {
+  background-color: #27c93f;
+}
+
+.terminal-body {
+  padding: 1rem;
+  white-space: pre-wrap;
+}
 
 
 .section-title {
@@ -329,6 +383,9 @@ footer {
 
   .hero-title h2 {
     font-size: 2.5rem;
+    display: inline;
+    margin: 0;
+
   }
 
   .hero-content {
